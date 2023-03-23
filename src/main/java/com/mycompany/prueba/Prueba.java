@@ -11,6 +11,10 @@ package com.mycompany.prueba;
 public class Prueba {
 
     public static void main(String[] args) {
-        System.out.println("Hola");
+        System.out.print("Hola");
+        
+        Persona nuevaPersona = new Persona("Mario", 19);
+        
+        System.out.println(nuevaPersona);
     }
 }
