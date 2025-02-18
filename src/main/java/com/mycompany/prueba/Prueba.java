@@ -13,7 +13,7 @@ public class Prueba {
     public static void main(String[] args) {
         System.out.print("Hola");
         
-        Persona nuevaPersona = new Persona("Mario", 19);
+        Persona nuevaPersona = new Persona("Angel", 21);
         
         System.out.println(nuevaPersona);
     }
